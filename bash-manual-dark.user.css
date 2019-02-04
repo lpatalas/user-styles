@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name         Bash Manual Dark
+@namespace    github.com/lpatalas/user-styles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+@var color link-color "Link Color" red
+==/UserStyle== */
+
+@-moz-document
+    url-prefix("https://www.gnu.org/software/bash/manual/html_node/"),
+    url("https://www.gnu.org/software/bash/manual/bash.html")
+{
+    html {
+        background: #333;
+    }
+
+    body {
+        background: #222;
+        color: #eee;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #eee;
+    }
+
+    div.example, pre.example {
+        background-color: #333;
+    }
+
+    a, .header a, a[href] {
+        color: #aaf;
+    }
+
+    a:visited, .header a:visited, a[href]:visited {
+        color: #faf;
+    }
+
+    a:hover, .header a:hover, a[href]:hover {
+        background-color: #333;
+        color: #aaf;
+    }
+
+    a:hover:visited, .header a:hover:visited, a[href]:hover:visited {
+        background-color: #333;
+        color: #faf;
+    }
+}
