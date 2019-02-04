@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name         zsh Manual Dark
+@namespace    github.com/lpatalas/user-styles
+@version      1.0.0
+@license      MIT
+@preprocessor default
+@var color link-color "Link Color" red
+==/UserStyle== */
+
+@-moz-document url-prefix("http://zsh.sourceforge.net/Doc/Release/") {
+    body {
+        background-color: #222;
+        color: #eee;
+    }
+
+    a {
+        color: #aaf;
+    }
+
+    a:visited {
+        color: #faf;
+    }
+
+    a:hover {
+        background-color: #333;
+        color: #aaf;
+    }
+
+    a:hover:visited {
+        background-color: #333;
+        color: #faf;
+    }
+}
