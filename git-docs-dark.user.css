@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name         Git Docs Dark
+@namespace    github.com/lpatalas/user-styles
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document
+    url-prefix("http://git-scm.com/docs/"),
+    url-prefix("https://git-scm.com/docs/")
+{
+    body {
+        background: #222;
+    }
+
+    aside.sidebar li > a {
+        color: #AAA;
+    }
+
+    aside.sidebar li > a.active {
+        color: #EB5C3C;
+    }
+
+    div#main {
+        background: #444;
+        color: #EEE;
+    }
+
+    pre, code {
+        background: #555;
+        color: #EEE;
+    }
+
+    a {
+        color: #35BAD8;
+    }
+
+    h2 {
+        color: #EB5C3C;
+    }
+}
