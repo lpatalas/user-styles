@@ -3,8 +3,6 @@
 @namespace    github.com/lpatalas/user-styles
 @version      1.0.0
 @license      MIT
-@preprocessor default
-@var color link-color "Link Color" red
 ==/UserStyle== */
 
 @-moz-document
