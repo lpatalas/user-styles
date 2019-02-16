@@ -1,0 +1,60 @@
+/* ==UserStyle==
+@name         suckless.org dark
+@namespace    github.com/lpatalas/user-styles
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("suckless.org") {
+    body {
+        background-color: #222;
+        color:#ccc;
+    }
+
+    a {
+        color: #99d;
+    }
+
+    pre > a.i,
+    span.i {
+        color: #8f8;
+    }
+
+    pre > a.d,
+    span.d {
+        color: #f88;
+    }
+
+    pre > a.h {
+        color: #88f;
+    }
+
+    table#branches tr:hover td,
+    table#tags tr:hover td,
+    table#index tr:hover td,
+    table#log tr:hover td,
+    table#files tr:hover td {
+        background-color: #333;
+    }
+
+    div#header {
+        background-color: #222;
+    }
+
+    div#header span#headerSubtitle {
+        color: #777;
+    }
+
+    div#menu {
+        background-color: #083a54;
+        border-top-color: #666;
+    }
+
+    div#nav a:hover {
+        background-color: #333;
+    }
+
+    div#main img[src$=".svg"] {
+        filter: invert(1);
+    }
+}
