@@ -8,6 +8,7 @@
 @-moz-document domain("news.ycombinator.com") {
     body {
         background-color: #333;
+        color: #ccc;
     }
     
     table#hnmain {
