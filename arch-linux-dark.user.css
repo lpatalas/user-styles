@@ -1,13 +1,18 @@
 /* ==UserStyle==
 @name         Arch Linux Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 ==/UserStyle== */
 
 @-moz-document domain("archlinux.org") {
     body {
         background-color: #222;
+        color: #ccc;
+    }
+    
+    #footer,
+    #footer ul li {
         color: #ccc;
     }
     
@@ -40,6 +45,7 @@
     
     div#simpleSearch {
         background-color: #222;
+        background-image: none;
     }
     
     div#toc {
