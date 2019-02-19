@@ -1,0 +1,138 @@
+/* ==UserStyle==
+@name         Arch Linux Dark
+@namespace    github.com/lpatalas/user-styles
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("archlinux.org") {
+    body {
+        background-color: #222;
+        color: #ccc;
+    }
+    
+    div.box {
+        background-color: #333;
+    }
+    
+    div#pkgdetails div#actionlist {
+        background-color: #282828;
+    }
+    
+    div#content {
+        background-color: #333;
+        color: #ccc;
+    }
+    
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6,
+    #mw-panel .portal h3 {
+        color: #fff;
+    }
+    
+    div#catlinks {
+        background-color: #444;
+    }
+    
+    div#simpleSearch {
+        background-color: #222;
+    }
+    
+    div#toc {
+        background-color: #2c2c2c;
+        color: #ccc;
+    }
+    
+    div#toc span.tocnumber,
+    #content table {
+        color: #ccc;
+    }
+    
+    #toc span.toctext,
+    #content a:active,
+    #content a:link,
+    #mw-navigation a:active,
+    #mw-navigation div#mw-panel a,
+    #mw-navigation div#mw-head a,
+    #content #bodyContent a {
+        color: #33b4ff !important;
+    }
+    
+    div.vectorTabs li > span {
+        background: none;
+    }
+    
+    div.vectorTabs li.selected > span {
+        background-color: #333 !important;
+    }
+    
+    div.archwiki-template-box.archwiki-template-box-tip {
+        background-color: #363;
+    }
+    
+    div.archwiki-template-box.archwiki-template-box-note {
+        background-color: #336;
+    }
+    
+    div.archwiki-template-box.archwiki-template-box-warning {
+        background-color: #633;
+    }
+    
+    div.archwiki-template-message {
+        background-color: #444;
+    }
+    
+    #content table.wikitable {
+        background-color: #444;
+    }
+    
+    #content table.wikitable th {
+        background-color: #383838;
+    }
+    
+    .results th {
+        background-color: #222;
+    }
+    
+    .results tr.odd {
+        background-color: #383838;
+    }
+    
+    .results tr.even {
+        background-color: #333;
+    }
+    
+    #article-list tr:hover,
+    #clocks-table tr:hover,
+    #dev-dashboard tr:hover,
+    #dev-todo-lists tr:hover,
+    #dev-todo-pkglist tr:hover,
+    #pkglist-results tr:hover,
+    #stats-area tr:hover {
+        background-color: #444;
+    }
+    
+    .results .flagged,
+    #pkgdetails #actionlist .flagged {
+        color: #f88;
+    }
+    
+    #content code,
+    #content pre {
+        background-color: #444;
+        color: #ddd;
+    }
+    
+    input,
+    textarea,
+    button,
+    select {
+        background-color: #282828;
+        border-color: #666;
+        color: #ccc;
+    }
+}
