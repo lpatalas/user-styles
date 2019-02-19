@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Arch Linux Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.1
+@version      1.0.2
 @license      MIT
 ==/UserStyle== */
 
@@ -64,7 +64,8 @@
     #mw-navigation a:active,
     #mw-navigation div#mw-panel a,
     #mw-navigation div#mw-head a,
-    #content #bodyContent a {
+    #content #bodyContent a,
+    .toctogglelabel {
         color: #33b4ff !important;
     }
 
