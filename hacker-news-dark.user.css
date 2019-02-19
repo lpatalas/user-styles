@@ -10,27 +10,27 @@
         background-color: #333;
         color: #ccc;
     }
-    
+
     table#hnmain {
         background-color: #222;
     }
-    
+
     table#hnmain > tbody > tr:first-child a:link {
         color: #000;
     }
-    
+
     a:link {
         color: #ccc;
     }
-    
+
     a.storylink {
         color: #ccc;
     }
-    
+
     a.storylink:visited {
         color: #666;
     }
-    
+
     .votearrow {
         background: none;
         border-bottom: 8px solid #888;
@@ -40,29 +40,29 @@
         padding-top: 2px;
         width: 0;
     }
-    
+
     span.comhead a.hnuser,
     td.subtext a.hnuser {
         color: #c73;
     }
-    
+
     span.commtext.c00 {
         color: #ccc;
     }
-    
+
     span.commtext.c00 a:link {
         color: #bbd;
     }
-    
+
     div.comment div.reply a:link,
     span.commtext.c00 div.reply a:link {
         color: #666;
     }
-    
+
     span.yclinks a {
         color: #ccc;
     }
-    
+
     input,
     textarea {
         background-color: #282828;
