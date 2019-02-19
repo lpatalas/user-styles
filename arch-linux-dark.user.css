@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Arch Linux Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.2
+@version      1.0.3
 @license      MIT
 ==/UserStyle== */
 
@@ -121,6 +121,22 @@
     #pkglist-results tr:hover,
     #stats-area tr:hover {
         background-color: #444;
+    }
+
+    #content table.wikitable th[style*='background: #ddd'] {
+        background: #666 !important;
+    }
+
+    #content table.wikitable td[style*='background: #afa'] {
+        background: #242 !important;
+    }
+
+    #content table.wikitable td[style*='background: #ffa'] {
+        background: #442 !important;
+    }
+
+    #content table.wikitable td[style*='background: #faa'] {
+        background: #422 !important;
     }
 
     .results .flagged,
