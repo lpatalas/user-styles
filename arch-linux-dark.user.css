@@ -77,6 +77,7 @@
     #mw-navigation div#mw-panel a,
     #mw-navigation div#mw-head a,
     #content #bodyContent a,
+    .content a,
     .toctogglelabel {
         color: #33b4ff !important;
     }
@@ -105,11 +106,13 @@
         background-color: #444;
     }
 
-    #content table.wikitable {
+    #content table.wikitable,
+    .content table.styled-table {
         background-color: #444;
     }
 
-    #content table.wikitable th {
+    #content table.wikitable th,
+    .content table.styled-table th {
         background-color: #383838;
     }
 
@@ -133,6 +136,10 @@
     #pkglist-results tr:hover,
     #stats-area tr:hover {
         background-color: #444;
+    }
+
+    .content table.styled-table tr:hover {
+        background-color: #555;
     }
 
     #content table.wikitable th[style*='background: #ddd'] {
@@ -160,6 +167,22 @@
     #content pre {
         background-color: #444;
         color: #ddd;
+    }
+
+    span.red {
+        color: #f66;
+    }
+
+    span.orange {
+        color: #f86;
+    }
+
+    span.light_orange {
+        color: #fb8;
+    }
+
+    span.green {
+        color: #6f6;
     }
 
     input,
