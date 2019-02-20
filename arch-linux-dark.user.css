@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Arch Linux Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.3
+@version      1.0.4
 @license      MIT
 ==/UserStyle== */
 
@@ -24,7 +24,7 @@
         background-color: #282828;
     }
 
-    div#content {
+    .mediawiki div#content {
         background-color: #333;
         color: #ccc;
     }
