@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Arch Linux Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.4
+@version      1.0.5
 @license      MIT
 ==/UserStyle== */
 
@@ -193,6 +193,10 @@
     select {
         background-color: #282828;
         border-color: #666;
+        color: #ccc;
+    }
+
+    #simpleSearch input {
         color: #ccc;
     }
 }
