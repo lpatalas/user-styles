@@ -29,6 +29,18 @@
         color: #ccc;
     }
 
+    #container #menu,
+    #container #pm-menu,
+    #container #search,
+    #container #tasklist {
+        background-color: #333;
+    }
+
+
+    #tasklist #tasklist_table a:link {
+        color: #006199 !important;
+    }
+
     #content h1,
     #content h2,
     #content h3,
@@ -151,6 +163,8 @@
     }
 
     input,
+    input.password,
+    input.text,
     textarea,
     button,
     select {
