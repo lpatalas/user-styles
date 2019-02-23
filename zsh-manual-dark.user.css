@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         zsh Manual Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://zsh.sourceforge.net/Doc/Release/") {
+@-moz-document url-prefix("http://zsh.sourceforge.net/Doc/") {
     body {
         background-color: #222;
         color: #eee;
