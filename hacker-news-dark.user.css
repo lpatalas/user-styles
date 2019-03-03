@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Hacker News Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.0
+@version      1.1.0
 @license      MIT
 ==/UserStyle== */
 
@@ -67,6 +67,82 @@
     textarea {
         background-color: #282828;
         border-color: #666;
+        color: #ccc;
+    }
+}
+
+@-moz-document domain("hn.algolia.com") {
+    body {
+        background-color: #333;
+        color: #ccc;
+    }
+
+    .page-header {
+        background: #c73;
+    }
+
+    .main {
+        background-color: #222;
+        color: #ccc;
+    }
+
+    .main > header {
+        background: #222;
+    }
+
+    .main strong {
+        color: #fff;
+    }
+
+    a,
+    a:active,
+    a:focus {
+        color: #bbe;
+    }
+
+    .search-results .item {
+        border-bottom: solid 1px #444;
+    }
+
+    .main .search-results .item .item-main .item-title-and-infos h2 a {
+        color: #ccc;
+    }
+
+    .main .search-results em {
+        background: #333 !important;
+        color: #fff !important;
+    }
+
+    .main .search-results .item .item-main .text-container {
+        color: #888;
+    }
+
+    .main .search-results .item .item-main .item-title-and-infos .item-infos i,
+    .main .search-results .item .item-main .item-title-and-infos .item-infos span,
+    .main .search-results .item .item-main .item-title-and-infos .item-infos a {
+        color: #888;
+    }
+
+    footer,
+    footer a {
+        background: #333;
+        color: #ccc;
+    }
+
+    input[type="search"],
+    .wrap-dd-select,
+    textarea {
+        background-color: #282828;
+        border-color: #666;
+        color: #ccc;
+    }
+
+    .wrap-dd-select .dropdown {
+        background-color: #333;
+    }
+
+    .wrap-dd-select .dropdown li a {
+        border-bottom-color: #555;
         color: #ccc;
     }
 }
