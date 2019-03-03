@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Arch Linux Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.5
+@version      1.0.6
 @license      MIT
 ==/UserStyle== */
 
@@ -35,7 +35,6 @@
     #container #tasklist {
         background-color: #333;
     }
-
 
     #tasklist #tasklist_table a:link {
         color: #006199 !important;
@@ -87,6 +86,10 @@
     }
 
     div.vectorTabs li.selected > span {
+        background-color: #333 !important;
+    }
+
+    div.archwiki-template-box[style*='background-color: #f9faff'] {
         background-color: #333 !important;
     }
 
