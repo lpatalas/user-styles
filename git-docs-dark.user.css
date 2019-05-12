@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Git Docs Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.0.0
+@version      1.1.0
 @license      MIT
 ==/UserStyle== */
 
@@ -37,5 +37,25 @@
 
     h2 {
         color: #EB5C3C;
+    }
+}
+
+@-moz-document regexp("file:///.+/share/doc/git-doc/.+") {
+    a {
+        color: #35BAD8;
+    }
+
+    body {
+        background: #222;
+        color: white;
+    }
+
+    body.manpage > div#header > h1 {
+        color: white;
+    }
+
+    pre, code {
+        background: #555 !important;;
+        color: #EEE !important;
     }
 }
