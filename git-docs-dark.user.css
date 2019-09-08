@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Git Docs Dark
 @namespace    github.com/lpatalas/user-styles
-@version      1.1.0
+@version      1.1.1
 @license      MIT
 ==/UserStyle== */
 
@@ -26,7 +26,7 @@
         color: #EEE;
     }
 
-    pre, code {
+    pre, code, #documentation #main div.verseblock pre.content {
         background: #555;
         color: #EEE;
     }
